@@ -1,0 +1,16 @@
+[VTF]
+vtfcmd=path\to\VTFCmd.exe
+vtfcmd_param=-resize -rclampwidth 512 -rclampheight 1024 -nomipmaps -format dxt1 -alphaformat dxt5 -flag ANISOTROPIC -flag TRILINEAR -flag NOMIP -flag NOLOD -rmethod NEAREST -rfilter HANNING   
+[Imgur]
+; Create an application at https://api.imgur.com/oauth2/addclient and copy the id and secret here
+client_id=
+client_secret=
+; Run the script in order to get an authentification URL and follow the steps to get the access token
+access_token=
+; Album id where images will be stored, leave empty for none
+; In order to get the id go to your album, click on 'Edit this album'and then click on the 'Embed Album' option.
+; Search for 'data-id' parameter in that line on text and copy the characters after "a/"
+; ---Example--- 
+; <blockquote class="imgur-embed-pub" lang="en" data-id="a/XXXXXX"><a href="//imgur.com/a/Jy2OrHh">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+; Just copy the character located at XXXXXX and paste them below
+album_id=

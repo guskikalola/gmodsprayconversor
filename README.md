@@ -1,0 +1,1 @@
+Duplicate config.cfg.example and rename it to config.cfg
